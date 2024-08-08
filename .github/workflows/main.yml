@@ -73,7 +73,7 @@ jobs:
           xcodebuild
           -allowProvisioningUpdates
           -exportArchive
-          -archivePath /Users/mac/Library/Developer/Xcode/Archives/newioscicd.xcarchive
+          -archivePath /Users/mac/Library/Developer/Xcode/Archives/newioscicd.xcarchive \
           -exportOptionsPlist $EXPORT_OPTS_PATH
           -exportPath $RUNNER_TEMP/build
 
