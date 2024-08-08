@@ -58,7 +58,6 @@ jobs:
           -allowProvisioningUpdates \
           -authenticationKeyID $(APPLE_ID_KEY_ID) \
           -authenticationKeyIssuerID $(APPLE_ID_ISSUER_ID)
-          -archivePath /Users/mac/Library/Developer/Xcode/Archives/newioscicd.xcarchive \
           -sdk iphoneos \
           -configuration Debug \
           -destination generic/platform=iOS \
